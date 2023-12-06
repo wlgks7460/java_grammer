@@ -75,6 +75,9 @@ public class C02Variable {
 //        int ch1_num = ch1;
 //        System.out.println(ch1_num);
 //
+//        char형 알파벳 비교를 위한 묵시적 타입변환이 일어난다.
+//        System.out.println('A'>'a');
+//
 //        int my_int1 = 10;
 //        double my_double1 = my_int1;
 //        System.out.println(my_double1);
