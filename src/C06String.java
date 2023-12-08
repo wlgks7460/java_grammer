@@ -1,3 +1,4 @@
+import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -24,6 +25,7 @@ public class C06String {
 ////        String과 int의 형변화
 //        int a = 10;
 //        String st_a = Integer.toString(a); //"10"
+//        String st_a2 = String.valueOf(a);
 //        int c = Integer.parseInt(st_a); // "10" -> 10
 //
 ////        참조자료형에 원시자료형을 담을 때는 wrapper 클래스를 써야한다. ex)컬렉션 프레임워크(List, set)
@@ -54,8 +56,8 @@ public class C06String {
 //        System.out.println(mySt.length());
 //
 ////        indexOf : 특정 문자열의 위치 반환, 가장 먼저 나오는 문자열의 위치 변환
-//        String mySt2 = "hello java";
-//        int mySt_index = mySt2.indexOf("java");
+//        String mySt2 = "hello java java";
+//        int mySt_index = mySt2.indexOf("java"); // 시작점의 자바 리턴
 //        System.out.println(mySt_index);
 
 ////        contains : 특정 문자열이 있는지 없는지 여부를 boolean으로 리턴
@@ -169,14 +171,44 @@ public class C06String {
 //        String[] stArr3 = b.split("\\s+"); //여러개의 공백
 //        System.out.println(Arrays.toString(stArr3));
 
-//        isEmpty와 null 구분
-        String st1 = null;
-        String st2 = "";
-        System.out.println(st1==null);
-        System.out.println(st2==null);
-        System.out.println(st2.isEmpty());
-//        NullPointerException 예외 발생
-        System.out.println(st1.isEmpty());
+////        isEmpty와 null 구분
+//        String st1 = null;
+//        String st2 = "";
+//        System.out.println(st1==null);
+//        System.out.println(st2==null);
+//        System.out.println(st2.isEmpty());
+////        NullPointerException 예외 발생
+//        System.out.println(st1.isEmpty());
+
+////        join : String[] -> String
+////        String.join(지정구분, 문자배열);
+//        String[] arr = {"HTML","CSS","PTYHON"};
+//        String a = String.join(" ", arr);
+//        System.out.println(a);
+
+////        StringBuffer : 문자열을 추가하거나 변경할 때 주로 사용하는 객체
+//        String st1 = "hello";
+//        StringBforuffer sb1 = new StringBuffer(st1);
+//        System.out.println(sb1); //hello
+//        sb1.append(" world");
+//        System.out.println(sb1); //hello world
+//        sb1.insert(5," java");
+//        System.out.println(sb1); //hello java world
+//        System.out.println(sb1.substring(6,10));//java
+//        sb1.delete(5,10);
+//        System.out.println(sb1); //hello world
+//
+////        성능 : String < Stringbuffer < StringBuilder (스레드 safe x)
+//        StringBuilder sb2 = new StringBuilder("hello");
+//        sb2.append(" world");
+//        System.out.println(sb2);
+
+//        프로그래머스 문자열 밀기
+
+
+
+
+
 
     }
 }
