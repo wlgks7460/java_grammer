@@ -203,7 +203,7 @@ public class C06String {
 //        sb2.append(" world");
 //        System.out.println(sb2);
 
-//        프로그래머스 문자열 밀기
+//        프로그래머스 : 문자열 밀기
 
 
 

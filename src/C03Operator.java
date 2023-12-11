@@ -1,6 +1,4 @@
-import java.sql.SQLOutput;
-
-public class CO3Operator {
+public class C03Operator {
     public static void main(String[] args) {
 ////        산술연산자
 //        int num1=8,num2=3;
