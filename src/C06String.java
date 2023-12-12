@@ -22,7 +22,7 @@ public class C06String {
 ////        박싱
 //        Integer f = Integer.valueOf(b);
 
-////        String과 int의 형변화
+//////        String과 int의 형변화
 //        int a = 10;
 //        String st_a = Integer.toString(a); //"10"
 //        String st_a2 = String.valueOf(a);
@@ -116,7 +116,7 @@ public class C06String {
 //        String str2 = " ";
 ////        알파벳만 빼고 문자를 str2에 새롭게 담기
 //        for(int i=0; i<str.length(); i++){
-//            char temp = str.charAt(i);
+//            if
 //            if( temp<'a' ||  temp> 'z'){
 //                str2 += Character.toString(temp);
 //            }
