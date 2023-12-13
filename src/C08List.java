@@ -59,7 +59,7 @@ public class C08List {
 ////        remove를 통한 index삭제 : 0 번째
 //        myList.remove(0);
 //        System.out.println(myList);
-////        remove를 통한 value 삭제 : 15 값 삭제
+////        remove를 통한 value 삭제 : 15 값 삭제 , 중복이 되면 앞의 값 삭제
 ////        객체를 통한 삭제 : Integer.valueOf
 //        myList.remove(Integer.valueOf(15));
 //        System.out.println(myList);

@@ -11,12 +11,12 @@ public class C09Map {
 //        myMap.put("soccer", "축구");
 //        myMap.put("baseball", "야구");
 //        System.out.println(myMap);
-//        System.out.println(myMap.get("basketball"));
+//        System.out.println(myMap.get("basketball")); //key값을 이용해서 value값을 return
 
 ////        size(), isEmpty() 사용 가능
 ////        이미 key가 있을 경우 put을 하면 덮어쓰기
 //        myMap.put("basketball", "탁구");
-////        업으면 put이 putIfAbsent
+////        없으면 put이 putIfAbsent
 //        myMap.putIfAbsent("baseball", "배구");
 //        System.out.println(myMap);
 //
@@ -45,36 +45,47 @@ public class C09Map {
 //            System.out.println(myIter.next());
 //        }
 
-//        아래의 리스트를 가지고 좋아하는 운동 종목과 사람 숫자를 map 형태로 나타내시오.
+////        아래의 리스트를 가지고 좋아하는 운동 종목과 사람 숫자를 map 형태로 나타내시오.
+//
+//        List<String> myList = new ArrayList<>();
+//        myList.add("basketball");
+//        myList.add("basketball");
+//        myList.add("basketball");
+//        myList.add("baseball");
+//        myList.add("baseball");
+//        myList.add("tennis");
+//        myList.add("tennis");
+//        myList.add("tennis");
+//        System.out.println(myList);
+//
+//        Map<String , Integer> myMap = new HashMap<>();
+//
+//        for(String a : myList){
+////            if(myMap.containsKey(a)){
+////                myMap.put(a, myMap.get(a) + 1);
+////            }else{
+////                myMap.put(a,1);
+////            }
+//
+//            myMap.put(a, myMap.getOrDefault(a,0)+1);
+//        }
 
-        List<String> myList = new ArrayList<>();
-        myList.add("basketball");
-        myList.add("basketball");
-        myList.add("basketball");
-        myList.add("baseball");
-        myList.add("baseball");
-        myList.add("tennis");
-        myList.add("tennis");
-        myList.add("tennis");
-        System.out.println(myList);
-
-        Map<String , Integer> myMap = new HashMap<>();
-
-        for(String a : myList){
-//            if(myMap.containsKey(a)){
-//                myMap.put(a, myMap.get(a) + 1);
-//            }else{
-//                myMap.put(a,1);
-//            }
-
-            myMap.put(a, myMap.getOrDefault(a,0)+1);
-        }
-        for(String a : myMap.keySet()){
-            System.out.println(myMap.keySet(a) + "종목을 선택한 사람 수는 " + myMap.values(a) + "입니다.");
-        }
-
-
-
-
+////        LinkedHashMap : 데이터 삽입순서 유지
+//        Map<String,Integer> myMap = new LinkedHashMap<>();
+//        myMap.put("hello05",1);
+//        myMap.put("hello04",1);
+//        myMap.put("hello03",1);
+//        myMap.put("hello02",1);
+//        myMap.put("hello01",1);
+//        System.out.println(myMap);
+//
+////        TreeMap : key를 통해 데이터 정렬
+//        Map<String,Integer> myMap2 = new TreeMap<>();
+//        myMap2.put("hello05",1);
+//        myMap2.put("hello04",1);
+//        myMap2.put("hello03",1);
+//        myMap2.put("hello02",1);
+//        myMap2.put("hello01",1);
+//        System.out.println(myMap2);
     }
 }

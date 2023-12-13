@@ -116,7 +116,7 @@ public class C06String {
 //        String str2 = " ";
 ////        알파벳만 빼고 문자를 str2에 새롭게 담기
 //        for(int i=0; i<str.length(); i++){
-//            if
+//            char temp = str.charAt(i);
 //            if( temp<'a' ||  temp> 'z'){
 //                str2 += Character.toString(temp);
 //            }
