@@ -1,7 +1,7 @@
 import java.util.*;
 import java.util.concurrent.ArrayBlockingQueue;
 
-public class C11StackQueue {
+public class C11StackQueueDeque {
     public static void main(String[] args) {
 //        Stack<Integer> mySt = new Stack<>();
 //        mySt.push(10);
@@ -79,13 +79,13 @@ public class C11StackQueue {
 //        }
 
 //        길이에 제한이 있는 큐 : ArrayBlockingQueue
-        Queue<String> myQue = new ArrayBlockingQueue<>(3);
-//        add와 offer의 차이 : add는 길이가 다 찼을 때 에러를 발생, offer공간이 충불할때만 add
-        myQue.offer("hello1");
-        myQue.offer("hello2");
-        myQue.offer("hello3");
-        myQue.offer("hello4");
-        System.out.println(myQue);
+//        Queue<String> myQue = new ArrayBlockingQueue<>(3);
+////        add와 offer의 차이 : add는 길이가 다 찼을 때 에러를 발생, offer공간이 충불할때만 add
+//        myQue.offer("hello1");
+//        myQue.offer("hello2");
+//        myQue.offer("hello3");
+//        myQue.offer("hello4");
+//        System.out.println(myQue);
 
 ////        우선순위 큐 : 프로그래머스 더 맵게
 //
@@ -99,6 +99,42 @@ public class C11StackQueue {
 //
 //        while(!pq.isEmpty()){
 //            System.out.println(pq.poll());
+//        }
+
+////        ArrayDeque은 양뱡항에서 데이터를 삽입 / 제거 할 수 있다.
+////        성능 빠름.
+//        Deque<Integer> myDeque = new ArrayDeque<>();
+//        myDeque.addFirst(10);
+//        myDeque.addFirst(20);
+//        System.out.println(myDeque);//20,10
+//        myDeque.addLast(30);
+//        System.out.println(myDeque);//20,10,30
+//        System.out.println(myDeque.pollFirst());//20
+//        System.out.println(myDeque.pollLast());//30
+//        System.out.println(myDeque);//10
+
+
+////       프로그래머스 :올바른 괄호
+//        String s = "()()";
+//        boolean answer = true;
+//        Deque<Character> myDeque = new ArrayDeque<>();
+//        for(int i=0; i<s.length(); i++){
+//            if(!myDeque.isEmpty()){
+//                myDeque.addLast(s.charAt(i));
+//                if(s.charAt(i) == 'i'){
+//                    answer = false;
+//                    break;
+//                }
+//            }else{
+//                if(myDeque.peek() == '(' && s.charAt(i) ==')'){
+//                    myDeque.pollLast();
+//                }else{
+//                    myDeque.addLast(s.charAt(i));
+//                }
+//            }
+//        }
+//        if(!myDeque.isEmpty()){
+//            answer = false;
 //        }
 
 
