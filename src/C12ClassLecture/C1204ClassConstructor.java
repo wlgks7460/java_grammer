@@ -1,6 +1,6 @@
 package C12ClassLecture;
 
-public class C1205ClassConstructor {
+public class C1204ClassConstructor {
 //    public static void main(String[] args) {
 //        Calender myCalender1 = new Calender("2023","12", "15");
 //        Calender myCalender2 = new Calender("2023", "12",null);

@@ -26,6 +26,8 @@ public class C06String {
 //        int a = 10;
 //        String st_a = Integer.toString(a); //"10"
 //        String st_a2 = String.valueOf(a);
+//        System.out.println(st_a + 10);
+//        System.out.println(st_a2 + 10);
 //        int c = Integer.parseInt(st_a); // "10" -> 10
 //
 ////        참조자료형에 원시자료형을 담을 때는 wrapper 클래스를 써야한다. ex)컬렉션 프레임워크(List, set)

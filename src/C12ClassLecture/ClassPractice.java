@@ -6,7 +6,7 @@ package C12ClassLecture;
 //1)메서드 : 예금(deposit), 인출(withdraw)
 // 1-1) deposit에 잔액이 충분해야 인출 가능
 // 1-2) 잔액이 얼마 남았는지 확인하는 메서드
-public class C1204ClassPractice {
+public class ClassPractice {
 //    public static void main(String[] args) {
 //        BankAccount BankA1 = new BankAccount("0111-4444");
 //        BankA1.deposit(10000);
