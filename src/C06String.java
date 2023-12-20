@@ -190,7 +190,7 @@ public class C06String {
 
 ////        StringBuffer : 문자열을 추가하거나 변경할 때 주로 사용하는 객체
 //        String st1 = "hello";
-//        StringBforuffer sb1 = new StringBuffer(st1);
+//        StringBuffer sb1 = new StringBuffer(st1);
 //        System.out.println(sb1); //hello
 //        sb1.append(" world");
 //        System.out.println(sb1); //hello world

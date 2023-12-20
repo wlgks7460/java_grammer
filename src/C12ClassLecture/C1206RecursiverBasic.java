@@ -3,7 +3,6 @@ package C12ClassLecture;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-
 public class C1206RecursiverBasic {
 //    public static void main(String[] args) {
 //        int total =0;

@@ -1,4 +1,4 @@
-package C12ClassLecture;
+package C14Interface.BankService;
 //은행계좌 실습
 //클래스명 BankAccount
 //0)객체변수 : 졔좌번호(account_number),balance(잔고)
@@ -6,7 +6,7 @@ package C12ClassLecture;
 //1)메서드 : 예금(deposit), 인출(withdraw)
 // 1-1) deposit에 잔액이 충분해야 인출 가능
 // 1-2) 잔액이 얼마 남았는지 확인하는 메서드
-public class ClassPractice {
+public class Temp {
 //    public static void main(String[] args) {
 //        BankAccount BankA1 = new BankAccount("0111-4444");
 //        BankA1.deposit(10000);
@@ -17,7 +17,8 @@ public class ClassPractice {
 //    }
 //
 //}
-//class BankAccount {
+//class
+// {
 //    private String account_number;
 //    private int balance;
 //
